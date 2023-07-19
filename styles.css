@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+h1{
+    font-size: 270%;
+}
+
+nav{
+    background-color: #003e89;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav img{
+    height: 80px
+}
+
+.nav-elements{
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero{
+    padding-top: 58px;
+    height: 100%;
+    box-sizing: border-box  ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://seguidores.online/wp-content/uploads/2020/08/Servicio-de-mantenimiento-insdustrial.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.title{
+    height: 300px;
+    background-image: url('https://seguidores.online/wp-content/uploads/2020/08/Servicio-de-mantenimiento-insdustrial.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.not-center{
+    padding-top: 50px;
+    text-align: justify !important;
+    overflow: hidden;
+}
+
+.texts{
+    text-align: center;
+    color: #003e89;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff91;
+}
+
+.info{
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card{
+    box-shadow: 0px 0px 20px lightgray;
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    justify-items: center;
+    align-content: center;
+}
+
+.card img{
+    height: 100%;
+}
+
+.inside{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inside a{
+    text-decoration: none;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    background-color: #003e89;
+}
+
+.words{
+    background-image: url('https://blog.bextok.com/wp-content/uploads/2017/08/iStock-518226928-e1502650932134.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.para{
+    background-color: #003e8993;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+footer img{
+    height: 200px;
+}
+
+.twomore{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    box-shadow: 0px 0px 20px lightgray;
+    padding: 70px 10px 50px ;
+    min-height: 300px;
+    width: 660px;
+}
+
+.labels{
+    width: 75%;
+    display: grid;
+    justify-content: end;
+    grid-template-columns: 20% 80%;
+}
+
+input{
+    height: 20px;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    outline: none;
+}
+
+textarea{
+    resize: none;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    min-width: 150px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    background-color: #003e89;
+    cursor: pointer;
+}
+
+.facts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 150px);
+    padding: 20px;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.cardf{
+    padding: 20px;
+    box-shadow: 0px 0px 20px lightgray;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    text-align: justify;
+}
+
+.cardf img{
+    height: 50px;
+}
