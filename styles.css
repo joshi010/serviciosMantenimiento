@@ -233,3 +233,42 @@ button{
 .cardf img{
     height: 50px;
 }
+
+@media only screen and (max-width: 768px){
+    .facts{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cardf{
+        width: 100%;
+        min-height: 175px;
+    }
+
+    .twomore{
+        text-align: center;
+    }
+
+    form{
+        width: 90%;
+    }
+
+    .labels{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    nav{
+        padding: 0 10px 0 0;
+    }
+
+    nav a{
+        font-size: 11px;
+        place-self: center;
+    }
+
+    .card{
+        width: 90%;
+    }
+}
